@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div style="text-align: center;">
+<h1 style="font-size: 40pt;">Stock Predictor</h1>
+
+<form action="#", method ="post">
+    <h3>Name of stock:</h3>
+    <p> <input type="text" name="nm" /> </p>
+    <p> <input type="submit" name="submit" /> </p>
+</form>
+</div>
+
+<div style="text-align: left; margin-top: 50px;">
+    <div style="text-align: center;">
+    <h1>Forecast of the stock <u>{{ ticker }}</u>  tomorrow:</h1>
+    <h2  style="color:{{ color }}"> {{ stock }}% </h2>
+    </div>
+</div>
+
+<div style="text-align: right;">
+    <div style="text-align: center; margin-top: 50px;">
+    <img src={{ image }} alt="" height="500" width="750">
+        </div>
+</div>
+
+</body>
+</html>
